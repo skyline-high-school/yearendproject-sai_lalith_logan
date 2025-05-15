@@ -1,11 +1,11 @@
-import Image from "next/image";
+import SearchBar from "@/components/SearchBar";
 
 export default function Home() {
 	return (
 		<div>
-			<div>
-				<h1>Hello World</h1>
-			</div>
+			<main className="p-8">
+				<SearchBar />
+			</main>
 		</div>
 	);
 }
